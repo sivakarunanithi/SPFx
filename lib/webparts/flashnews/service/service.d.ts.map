@@ -1,0 +1,1 @@
+{"version":3,"file":"service.d.ts","sourceRoot":"","sources":["../../../../src/webparts/flashnews/service/service.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,4BAA4B,CAAC;AAG5D,qBAAa,SAAS;IACN,OAAO,CAAC,OAAO;gBAAP,OAAO,EAAE,cAAc;IAM9B,SAAS,CAAC,YAAY,EAAE,MAAM,GAAG,OAAO,CAAC,GAAG,CAAC;CAY7D"}
