@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "auditreport",
+    "id": "57ef9d94-95cc-47bc-8931-63e82df6a751",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "auditreport description"
+      },
+      "longDescription": {
+        "default": "auditreport description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "auditreport Feature",
+        "description": "The feature that activates elements of the auditreport solution.",
+        "id": "414e3ca7-157a-4d78-a286-8aaafa29efd5",
+        "version": "1.0.0.0"
+      }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Reports.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "AuditLog.Read.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/auditreport.sppkg"
+  }
+}

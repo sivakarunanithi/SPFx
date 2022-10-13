@@ -1,0 +1,1 @@
+{"version":3,"file":"IAuditreportProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/auditreport/components/IAuditreportProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,4BAA4B,CAAC;AAE5D,MAAM,WAAW,iBAAiB;IAChC,WAAW,EAAE,MAAM,CAAC;IACpB,OAAO,EAAC,cAAc,CAAC;CACxB"}
