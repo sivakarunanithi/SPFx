@@ -11,10 +11,13 @@
       ]
     }
   },
-  "externals": {},
+  "externals": {
+    "jquery":"node_modules/jquery/dist/jquery.min.js"
+  },
   "localizedResources": {
     "FlashnewsWebPartStrings": "lib/webparts/flashnews/loc/{locale}.js",
     "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
     "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
   }
+  
 }

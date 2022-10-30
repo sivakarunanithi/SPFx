@@ -1,4 +1,4 @@
-define("13e679c7-2414-4faf-b5c8-5fa71afddd71_0.0.2", ["@microsoft/sp-property-pane","@microsoft/sp-lodash-subset","@microsoft/sp-core-library","FlashnewsWebPartStrings","@microsoft/sp-webpart-base","react","react-dom","@microsoft/sp-http","PropertyControlStrings"], function(__WEBPACK_EXTERNAL_MODULE__26ea__, __WEBPACK_EXTERNAL_MODULE_Pk8u__, __WEBPACK_EXTERNAL_MODULE_UWqr__, __WEBPACK_EXTERNAL_MODULE_WfMY__, __WEBPACK_EXTERNAL_MODULE_br4S__, __WEBPACK_EXTERNAL_MODULE_cDcd__, __WEBPACK_EXTERNAL_MODULE_faye__, __WEBPACK_EXTERNAL_MODULE_vlQI__, __WEBPACK_EXTERNAL_MODULE_zwa___) { return /******/ (function(modules) { // webpackBootstrap
+define("13e679c7-2414-4faf-b5c8-5fa71afddd71_0.0.2", ["@microsoft/sp-property-pane","@microsoft/sp-lodash-subset","@microsoft/sp-core-library","FlashnewsWebPartStrings","@microsoft/sp-webpart-base","react","react-dom","@microsoft/sp-http","jquery","PropertyControlStrings"], function(__WEBPACK_EXTERNAL_MODULE__26ea__, __WEBPACK_EXTERNAL_MODULE_Pk8u__, __WEBPACK_EXTERNAL_MODULE_UWqr__, __WEBPACK_EXTERNAL_MODULE_WfMY__, __WEBPACK_EXTERNAL_MODULE_br4S__, __WEBPACK_EXTERNAL_MODULE_cDcd__, __WEBPACK_EXTERNAL_MODULE_faye__, __WEBPACK_EXTERNAL_MODULE_vlQI__, __WEBPACK_EXTERNAL_MODULE_xeH2__, __WEBPACK_EXTERNAL_MODULE_zwa___) { return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -18901,16 +18901,17 @@ __webpack_require__.r(__webpack_exports__);
 /* tslint:disable */
 __webpack_require__(/*! ./Flashnews.module.css */ "ExrF");
 var styles = {
-    flashnews: 'flashnews_c53dfb0c',
-    container: 'container_c53dfb0c',
-    row: 'row_c53dfb0c',
-    column: 'column_c53dfb0c',
-    'ms-Grid': 'ms-Grid_c53dfb0c',
-    title: 'title_c53dfb0c',
-    subTitle: 'subTitle_c53dfb0c',
-    description: 'description_c53dfb0c',
-    button: 'button_c53dfb0c',
-    label: 'label_c53dfb0c'
+    flashnews: 'flashnews_6e4aafc0',
+    containerhide: 'containerhide_6e4aafc0',
+    container: 'container_6e4aafc0',
+    row: 'row_6e4aafc0',
+    column: 'column_6e4aafc0',
+    'ms-Grid': 'ms-Grid_6e4aafc0',
+    title: 'title_6e4aafc0',
+    subTitle: 'subTitle_6e4aafc0',
+    description: 'description_6e4aafc0',
+    button: 'button_6e4aafc0',
+    label: 'label_6e4aafc0'
 };
 /* harmony default export */ __webpack_exports__["default"] = (styles);
 /* tslint:enable */ 
@@ -35242,7 +35243,7 @@ var PropertyFieldListPickerHost = /** @class */ (function (_super) {
 
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "JPst")(false);
 // Module
-exports.push([module.i, ".flashnews_c53dfb0c .container_c53dfb0c{max-width:99%;line-height:0;margin:0 auto}.flashnews_c53dfb0c .row_c53dfb0c{margin:0 -8px;box-sizing:border-box;zoom:1;color:#fff;background-color:#005a9e;padding:5px;display:-ms-flexbox;display:flex}.flashnews_c53dfb0c .row_c53dfb0c:after,.flashnews_c53dfb0c .row_c53dfb0c:before{display:table;content:\"\";line-height:0}.flashnews_c53dfb0c .row_c53dfb0c:after{clear:both}.flashnews_c53dfb0c .column_c53dfb0c{position:relative;min-height:1px;padding-left:8px;padding-right:8px;box-sizing:border-box}[dir=ltr] .flashnews_c53dfb0c .column_c53dfb0c{float:left}[dir=rtl] .flashnews_c53dfb0c .column_c53dfb0c{float:right}.flashnews_c53dfb0c .column_c53dfb0c .ms-Grid_c53dfb0c{padding:0}@media (min-width:640px){.flashnews_c53dfb0c .column_c53dfb0c{width:83.3333333333%}}@media (min-width:1024px){.flashnews_c53dfb0c .column_c53dfb0c{width:66.6666666667%}}@media (min-width:1024px){[dir=ltr] .flashnews_c53dfb0c .column_c53dfb0c{left:16.6666666667%}[dir=rtl] .flashnews_c53dfb0c .column_c53dfb0c{right:16.6666666667%}}@media (min-width:640px){[dir=ltr] .flashnews_c53dfb0c .column_c53dfb0c{left:8.3333333333%}[dir=rtl] .flashnews_c53dfb0c .column_c53dfb0c{right:8.3333333333%}}.flashnews_c53dfb0c .title_c53dfb0c{font-size:21px;font-weight:100;color:#fff}.flashnews_c53dfb0c .description_c53dfb0c,.flashnews_c53dfb0c .subTitle_c53dfb0c{font-size:17px;font-weight:300;color:#fff}.flashnews_c53dfb0c .button_c53dfb0c{text-decoration:none;height:32px;min-width:80px;background-color:#0078d4;border-color:#0078d4;color:#fff;outline:transparent;position:relative;font-family:Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:400;border-width:0;text-align:center;cursor:pointer;display:inline-block;padding:0 16px}.flashnews_c53dfb0c .button_c53dfb0c .label_c53dfb0c{font-weight:600;font-size:14px;height:32px;line-height:32px;margin:0 4px;vertical-align:top;display:inline-block}", ""]);
+exports.push([module.i, ".flashnews_6e4aafc0 .containerhide_6e4aafc0{display:none}.flashnews_6e4aafc0 .container_6e4aafc0{max-width:99%;line-height:0;margin:0 auto}.flashnews_6e4aafc0 .row_6e4aafc0{margin:0 -8px;box-sizing:border-box;zoom:1;color:#fff;background-color:#005a9e;padding:5px;display:-ms-flexbox;display:flex}.flashnews_6e4aafc0 .row_6e4aafc0:after,.flashnews_6e4aafc0 .row_6e4aafc0:before{display:table;content:\"\";line-height:0}.flashnews_6e4aafc0 .row_6e4aafc0:after{clear:both}.flashnews_6e4aafc0 .column_6e4aafc0{position:relative;min-height:1px;padding-left:8px;padding-right:8px;box-sizing:border-box}[dir=ltr] .flashnews_6e4aafc0 .column_6e4aafc0{float:left}[dir=rtl] .flashnews_6e4aafc0 .column_6e4aafc0{float:right}.flashnews_6e4aafc0 .column_6e4aafc0 .ms-Grid_6e4aafc0{padding:0}@media (min-width:640px){.flashnews_6e4aafc0 .column_6e4aafc0{width:83.3333333333%}}@media (min-width:1024px){.flashnews_6e4aafc0 .column_6e4aafc0{width:66.6666666667%}}@media (min-width:1024px){[dir=ltr] .flashnews_6e4aafc0 .column_6e4aafc0{left:16.6666666667%}[dir=rtl] .flashnews_6e4aafc0 .column_6e4aafc0{right:16.6666666667%}}@media (min-width:640px){[dir=ltr] .flashnews_6e4aafc0 .column_6e4aafc0{left:8.3333333333%}[dir=rtl] .flashnews_6e4aafc0 .column_6e4aafc0{right:8.3333333333%}}.flashnews_6e4aafc0 .title_6e4aafc0{font-size:21px;font-weight:100;color:#fff}.flashnews_6e4aafc0 .description_6e4aafc0,.flashnews_6e4aafc0 .subTitle_6e4aafc0{font-size:17px;font-weight:300;color:#fff}.flashnews_6e4aafc0 .button_6e4aafc0{text-decoration:none;height:32px;min-width:80px;background-color:#0078d4;border-color:#0078d4;color:#fff;outline:transparent;position:relative;font-family:Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:400;border-width:0;text-align:center;cursor:pointer;display:inline-block;padding:0 16px}.flashnews_6e4aafc0 .button_6e4aafc0 .label_6e4aafc0{font-weight:600;font-size:14px;height:32px;line-height:32px;margin:0 4px;vertical-align:top;display:inline-block}", ""]);
 
 
 /***/ }),
@@ -53588,6 +53589,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Flashnews_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Flashnews.module.scss */ "GEsm");
 /* harmony import */ var _pnp_sp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @pnp/sp */ "UKGb");
 /* harmony import */ var reactjs_popup__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactjs-popup */ "xwdh");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! jquery */ "xeH2");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_5__);
 var __extends = (undefined && undefined.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -53642,18 +53645,36 @@ var __generator = (undefined && undefined.__generator) || function (thisArg, bod
 
 
 
+
+//import * jQuery from "jquery";
+//import * as jQuery from "jquery";
+__webpack_require__(/*! jquery */ "xeH2");
+// const { JSDOM } = require( "jsdom" );
+// const { window } = new JSDOM();
+// const { document } = (new JSDOM('')).window;
+// var $ = jQuery = require('jquery')(window);
+//require("jquery")(window);
+var initStage = true;
 var Flashnews = /** @class */ (function (_super) {
     __extends(Flashnews, _super);
     function Flashnews(props, state) {
         var _this = _super.call(this, props) || this;
+        // SPComponentLoader.loadScript('https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js');
+        // this.getColumnData = this.getColumnData.bind(this);
         _this.state = { itemstore: [] };
         return _this;
     }
     Flashnews.prototype.componentDidMount = function () {
-        this.getColumnData();
-    };
-    Flashnews.prototype.componentWillMount = function () {
-        this.getColumnData();
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, this.getColumnData()];
+                    case 1:
+                        _a.sent();
+                        return [2 /*return*/];
+                }
+            });
+        });
     };
     Flashnews.prototype.getColumnData = function () {
         return __awaiter(this, void 0, void 0, function () {
@@ -53661,49 +53682,84 @@ var Flashnews = /** @class */ (function (_super) {
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
+                        debugger;
                         today = new Date();
                         filterString = this.props.FilterBy + (" ge datetime'" + today.toISOString() + "'");
                         console.log(filterString);
-                        return [4 /*yield*/, _pnp_sp__WEBPACK_IMPORTED_MODULE_3__["sp"].web.lists.getById(this.props.list)
-                                .items.filter(filterString).getAll()];
+                        //const items: any[] = await sp.web.lists.getById(this.props.list)
+                        console.log("NOTHING IS IMPOSSIBLE");
+                        return [4 /*yield*/, _pnp_sp__WEBPACK_IMPORTED_MODULE_3__["sp"].web.lists.getById(this.props.list).items.filter(filterString).getAll()];
                     case 1:
                         items = _a.sent();
-                        this.setState({ itemstore: items });
-                        console.log("NOTHING IS IMPOSSIBLE");
+                        if (items.length > 0) {
+                            console.log("greater than 0 is executing");
+                            initStage = false;
+                            this.setState({ itemstore: items });
+                        }
+                        else {
+                            console.log("0 length is executing");
+                            initStage = false;
+                            this.setState({ itemstore: items });
+                        }
                         return [2 /*return*/];
                 }
             });
         });
     };
-    /* private getsingleItem(columndata){
-      var i=0;
-      console.log(this.state.itemstore[i]["Title"]);
-      {this.state.itemstore[i]["Title"] !=null ? <div><h1>iam here</h1></div>:<div><h1>I am out</h1></div>}
-    } */
-    /* private getsingleItem(columndata){
-      console.log(this.state.itemstore.length);
-      {this.state.itemstore.length > 0 ?
-        <div>
-      console.log("TTT");
-      return(
-       <div>
-          <Ticker>
-            {()=> <><h1>{columndata}</h1><img src="www.my-image-source.com/" alt=""/></> }
-        </Ticker>
-        </div>
-      ) </div>: ""}
-    } */
-    // public mytestfunction()
-    // {
-    //   return(
-    //     <div>
-    //      <h1>"inside mytest functionTESSssssssssss"</h1>
-    //     </div>
-    //   )
-    // }
+    Flashnews.prototype.webpartHide = function () {
+        // $("#myWebPartID").css('display','none');
+        //$('div[data-viewport-id^="WebPart.FlashnewsWebPart"]').parent('div').parent('div').css('display','none');
+        console.log("inside timer function");
+        var shami = jquery__WEBPACK_IMPORTED_MODULE_5__('div[data-viewport-id^="WebPart.FlashnewsWebPart"]');
+        console.log(jquery__WEBPACK_IMPORTED_MODULE_5__('div[data-viewport-id^="WebPart.FlashnewsWebPart"]'));
+        console.log(shami[0] + "only webpart div");
+        var kashi = jquery__WEBPACK_IMPORTED_MODULE_5__('div[data-viewport-id^="WebPart.FlashnewsWebPart"]').parent('div').parent('div');
+        console.log(kashi + "webpart with parent div");
+        jquery__WEBPACK_IMPORTED_MODULE_5__('div[data-viewport-id^="WebPart.FlashnewsWebPart"]').parent('div').parent('div').hide();
+        jquery__WEBPACK_IMPORTED_MODULE_5__(kashi.css('display', 'none'));
+        return null;
+    };
+    // //  "jquery":"node_modules/jquery/dist/jquery.min.js",
+    Flashnews.prototype.HideWebPart = function () {
+        var _this = this;
+        debugger;
+        //alert("test");
+        console.log("inside hide webpart");
+        //$('div[id^="workbenchComman"]').hide();
+        var s = jquery__WEBPACK_IMPORTED_MODULE_5__('div[data-viewport-id^="WebPart.FlashnewsWebPart"]').parent().parent();
+        //$('div[data-viewport-id^="WebPart.FlashnewsWebPart"]').closest('div').css('display','none');
+        //console.log(s);
+        //$(s).hide();
+        //$(s).hasClass("hideme");
+        //$(s).css('display','none');
+        //$(s.prevAll('div'));
+        //$('div[data-viewport-id^="WebPart.FlashnewsWebPart"]').hi;
+        jquery__WEBPACK_IMPORTED_MODULE_5__('div[data-viewport-id^="WebPart.FlashnewsWebPart"]').parent('div').parent('div').hide();
+        console.log("success");
+        setTimeout(function () { _this.webpartHide(); }, 5000);
+        //$('div[data-viewport-id^="WebPart.FlashnewsWebPart"]').parentElement('div').hidden=true;
+        //$(flashWP.parentNode.style.display='none');
+        // jQuery('div[data-viewport-id^="WebPart.FlashnewsWebPart"]').parent('div').closest('div').hidden=true;
+        //var foundWebPartID = $('div[data-viewport-id^="WebPart.FlashnewsWebPart"]'); //.parentNode.parentNode;
+        //console.log(foundWebPartID);
+        // console.log(foundWebPartID.iindexOf('WebPart.FlashnewsWebPart'));
+        //if(foundWebPartID && foundWebPartIDindexOf('WebPart.FlashnewsWebPart') > 0) 
+        //{
+        //console.log("Iam inside of found webpart");
+        // $('div[data-viewport-id^="WebPart.FlashnewsWebPart"]').parentNode.parentNode.hidden=true;
+        //}
+        // setInterval(() => {
+        //  console.log("how are you");
+        //$('div[data-viewport-id^="WebPart.FlashnewsWebPart"]').parentElement('div').hidden=true;
+        // var flashWP = $('div[data-viewport-id^="WebPart.FlashnewsWebPart"]');
+        // $(flashWP.parentNode.style.display='none');
+        //jQuery('div[data-viewport-id^="WebPart.FlashnewsWebPart"]').parent('div').hidden=true;
+        //}, 17000);
+        return null;
+    };
     Flashnews.prototype.render = function () {
         var _this = this;
-        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _Flashnews_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].flashnews },
+        return ((this.state.itemstore.length > 0 && initStage != true) ? (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { id: "myWebPartID", className: _Flashnews_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].flashnews },
             react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _Flashnews_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].container },
                 react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _Flashnews_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].row },
                     react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h3", { style: { width: '174px', paddingLeft: '10px' } }, this.props.Title),
@@ -53711,11 +53767,89 @@ var Flashnews = /** @class */ (function (_super) {
                         react__WEBPACK_IMPORTED_MODULE_0__["createElement"](reactjs_popup__WEBPACK_IMPORTED_MODULE_4__["default"], { trigger: react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null,
                                 item["Title"],
                                 "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0*** "), position: "right left" },
-                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { style: { maxWidth: '300px', backgroundColor: _this.props.descbgcolor, color: _this.props.descfgcolor, fontSize: _this.props.descfontsize, fontFamily: _this.props.descfontname } }, item["Description"])))); })))))));
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { style: { maxWidth: '300px', backgroundColor: _this.props.descbgcolor, color: _this.props.descfgcolor, fontSize: _this.props.descfontsize, fontFamily: _this.props.descfontname } }, item["Description"])))); })))))))
+            : react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null,
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("button", { style: { height: '60px', width: '200px' }, onClick: this.webpartHide() }),
+                this.HideWebPart()));
     };
     return Flashnews;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
 /* harmony default export */ __webpack_exports__["default"] = (Flashnews);
+// console.log(this.state.itemstore.length);
+//   /*if(this.state.itemstore.length === 0){
+//    // console.log("inside render");
+//     //this.HideWebPart();
+//   } */
+//   console.log(initStage);
+//   {
+/* private getsingleItem(columndata){
+  var i=0;
+  console.log(this.state.itemstore[i]["Title"]);
+  {this.state.itemstore[i]["Title"] !=null ? <div><h1>iam here</h1></div>:<div><h1>I am out</h1></div>}
+} */
+/* private getsingleItem(columndata){
+  console.log(this.state.itemstore.length);
+  {this.state.itemstore.length > 0 ?
+    <div>
+  console.log("TTT");
+  return(
+   <div>
+      <Ticker>
+        {()=> <><h1>{columndata}</h1><img src="www.my-image-source.com/" alt=""/></> }
+    </Ticker>
+    </div>
+  ) </div>: ""}
+} */
+// public mytestfunction()
+// {
+//   return(
+//     <div>
+//      <h1>"inside mytest functionTESSssssssssss"</h1>
+//     </div>
+//   )
+// }
+/*
+//   let today;// = new Date();
+//   const searchtext = this.props.FilterValue
+//   if(searchtext.search("today")){
+//      today = new Date();
+//      console.log("indis");
+//   }
+//   else
+//   {
+//     today=new Date(this.props.FilterValue);
+//   }
+//  console.log("not inite"+today)
+  // get all the items from a list
+  //const items: [] = await sp.web.lists.getById(this.props.list).items();
+//.select(this.props.column,this.props.FilterBy)
+  // const fieldInfo = await sp.web.lists.getById(this.props.list).fields.getByInternalNameOrTitle(this.props.FilterBy)();
+  // console.log(fieldInfo.TypeDisplayName)
+  // console.log(this.props.FilterBy);
+
+  //ilter=(Created ge datetime'2019-09-13T00:00:00Z')and (Created le datetime'2019-09-14T00:00:00Z')
+  //var filterString = this.props.FilterBy+' ' +this.props.condition+` datetime'${today.toISOString()}'`; //"Expires ge datetime '"+today.toISOString()+''
+  */
+/* {(this.state.itemstore.map((item,index) => (
+<div>
+ {this.getsingleItem("SIVA")}
+ <h1>"TESSssssssssss"</h1>
+</div>
+)))}
+<div className={ styles.flashnews }>
+      <div className={ styles.container }>
+        <div className={ styles.row }>
+          <div className={ styles.column }>
+            <span className={ styles.title }>Welcome to SharePoint!</span>
+            <p className={ styles.subTitle }>Customize SharePoint experiences using Web Parts.</p>
+            <p className={ styles.description }>{escape(this.props.description)}</p>
+            <a href="https://aka.ms/spfx" className={ styles.button }>
+              <span className={ styles.label }>Learn more</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>  */ 
 
 
 /***/ }),
@@ -53931,6 +54065,17 @@ function _createNode() {
     };
 }
 //# sourceMappingURL=memoize.js.map
+
+/***/ }),
+
+/***/ "xeH2":
+/*!*************************!*\
+  !*** external "jquery" ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_xeH2__;
 
 /***/ }),
 
